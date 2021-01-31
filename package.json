@@ -6,8 +6,8 @@
   "author": "Dragon-Fish <824399619@qq.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack --watch",
+    "build": "npm run clear && webpack",
+    "dev": "npm run clear && webpack --watch",
     "clear": "rm -rf ./dist **/dist"
   },
   "devDependencies": {
