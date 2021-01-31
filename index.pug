@@ -1,0 +1,16 @@
+-
+  const conf = NovelConfig
+  const confJSON = JSON.stringify(conf)
+-
+
+#novelContainer
+  h2= conf.name
+  p#description= conf.desc
+  #scriptsDesc
+    | 本页使用的脚本：
+    a(href="scripts/index.txt") index.txt
+
+  ul#dialogArea
+
+  script.
+    window.NovelConfig = !{confJSON}
