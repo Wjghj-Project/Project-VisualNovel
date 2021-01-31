@@ -6,7 +6,9 @@
   "author": "Dragon-Fish <824399619@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --watch"
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "clear": "rm -rf ./dist **/dist"
   },
   "devDependencies": {
     "apply-loader": "^2.0.0",
